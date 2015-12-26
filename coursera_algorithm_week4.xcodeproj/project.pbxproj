@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F39BA2C1C34939E00C4ABC4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F39BA2B1C34939E00C4ABC4 /* main.cpp */; };
+		5F39BA331C34960D00C4ABC4 /* scc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F39BA321C34960D00C4ABC4 /* scc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5F39BA281C34939E00C4ABC4 /* coursera_algorithm_week4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coursera_algorithm_week4; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F39BA2B1C34939E00C4ABC4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5F39BA321C34960D00C4ABC4 /* scc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scc.cpp; sourceTree = "<group>"; };
+		5F39BA341C34963000C4ABC4 /* scc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5F39BA2B1C34939E00C4ABC4 /* main.cpp */,
+				5F39BA321C34960D00C4ABC4 /* scc.cpp */,
+				5F39BA341C34963000C4ABC4 /* scc.h */,
 			);
 			path = coursera_algorithm_week4;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F39BA2C1C34939E00C4ABC4 /* main.cpp in Sources */,
+				5F39BA331C34960D00C4ABC4 /* scc.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
