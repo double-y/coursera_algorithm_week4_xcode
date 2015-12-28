@@ -97,10 +97,10 @@ vector<vector<int> > get_sccs(vector<vector<int> > edge_vec, set<int> node_set){
 
 bool compare_scc_size(vector<int> scc_i, vector<int> scc_j){return scc_i.size()>scc_j.size();}
 
-vector< vector<int> > exec_scc(void){
+vector< vector<int> > exec_scc(string file_name){
   set<int> node_set;
 
-  ifstream infile("SCC.txt");
+  ifstream infile(file_name);
 
   vector<int> from_vec;
   vector<int> to_vec;
@@ -130,9 +130,6 @@ vector< vector<int> > exec_scc(void){
   for(int i=0; i<node_count; i++){
     node_set.insert(i);
   }
-
-  cout << edges.size() << endl;
-  cout << node_set.size() << endl;
 
   vector<vector<int> > sccs = get_sccs(edges, node_set);
   sort(sccs.begin(), sccs.end(), compare_scc_size);
