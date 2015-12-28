@@ -16,4 +16,6 @@
 #include <set>
 #include <stack>
 
+std::vector< std::vector<int> > exec_scc(std::string file_name);
+
 #endif /* scc_h */
