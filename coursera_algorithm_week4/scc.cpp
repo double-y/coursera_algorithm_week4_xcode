@@ -131,9 +131,6 @@ vector< vector<int> > exec_scc(string file_name){
     node_set.insert(i);
   }
 
-  cout << edges.size() << endl;
-  cout << node_set.size() << endl;
-
   vector<vector<int> > sccs = get_sccs(edges, node_set);
   sort(sccs.begin(), sccs.end(), compare_scc_size);
   return sccs;
